@@ -1,0 +1,8 @@
+# robots.txt for LimeTree Accounting Solutions
+# https://limetreeaccounting.org
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://limetreeaccounting.org/sitemap.xml
