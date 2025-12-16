@@ -442,12 +442,13 @@ p {
 
 .btn-primary {
     background-color: var(--primary-lime);
-    color: var(--secondary-green-dark);
+    color: #000000;
+    font-weight: 600;
 }
 
 .btn-primary:hover {
     background-color: var(--primary-lime-dark);
-    color: var(--secondary-green-dark);
+    color: #000000;
     transform: translateY(-2px);
     box-shadow: var(--shadow-md);
 }
