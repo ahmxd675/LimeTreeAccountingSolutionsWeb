@@ -1,0 +1,13 @@
+<svg width="280" height="80" viewBox="0 0 280 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tree Icon - Larger -->
+  <circle cx="40" cy="40" r="36" fill="#166534"/>
+  <path d="M40 12C40 12 24 28 24 40C24 48.837 31.163 56 40 56C48.837 56 56 48.837 56 40C56 28 40 12 40 12Z" fill="#84CC16"/>
+  <circle cx="40" cy="40" r="7" fill="#166534"/>
+  
+  <!-- LimeTree Text -->
+  <text x="90" y="38" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" fill="#166534">Lime</text>
+  <text x="90" y="38" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" fill="#84CC16" dx="58">Tree</text>
+  
+  <!-- Accounting Solutions Text -->
+  <text x="90" y="58" font-family="Open Sans, Arial, sans-serif" font-size="13" font-weight="500" fill="#4B5563" letter-spacing="1.5">ACCOUNTING SOLUTIONS</text>
+</svg>

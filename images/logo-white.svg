@@ -1,0 +1,13 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- White version for dark backgrounds -->
+  <circle cx="30" cy="30" r="28" fill="#84CC16"/>
+  <path d="M30 10C30 10 18 22 18 30C18 36.627 23.373 42 30 42C36.627 42 42 36.627 42 30C42 22 30 10 30 10Z" fill="white"/>
+  <circle cx="30" cy="30" r="5" fill="#84CC16"/>
+  
+  <!-- LimeTree Text -->
+  <text x="68" y="28" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="white">Lime</text>
+  <text x="68" y="28" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#84CC16" dx="46">Tree</text>
+  
+  <!-- Accounting Solutions Text -->
+  <text x="68" y="46" font-family="Open Sans, Arial, sans-serif" font-size="11" font-weight="500" fill="rgba(255,255,255,0.9)" letter-spacing="1">ACCOUNTING SOLUTIONS</text>
+</svg>
