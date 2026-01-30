@@ -117,4 +117,30 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+
+  <!-- Niche Landing Pages -->
+  <url>
+    <loc>https://limetreeaccounting.org/services/taxi-driver-accountant.html</loc>
+    <lastmod>2026-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://limetreeaccounting.org/services/landlord-accountant.html</loc>
+    <lastmod>2026-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://limetreeaccounting.org/services/small-business-accountant.html</loc>
+    <lastmod>2026-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://limetreeaccounting.org/services/sole-trader-accountant.html</loc>
+    <lastmod>2026-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
