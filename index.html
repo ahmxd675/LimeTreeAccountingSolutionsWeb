@@ -84,31 +84,44 @@
             "@type": "EducationalOccupationalCredential",
             "credentialCategory": "Professional Certification",
             "name": "AAT (Association of Accounting Technicians)"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1",
+            "ratingCount": "3",
+            "reviewCount": "3"
         }
     }
     </script>
 
-    <!-- Google Analytics (replace UA-XXXXX with your tracking ID) -->
-    <!-- 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-XXXXXXXXXX');
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://limetreeaccounting.org/"
+            }
+        ]
+    }
     </script>
-    -->
 
-    <!-- Google Ads (replace with your conversion tracking code) -->
-    <!--
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-XXXXXXXXXX"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4HP6V1GTMG"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'AW-XXXXXXXXXX');
+        gtag('config', 'G-4HP6V1GTMG');
     </script>
-    -->
+
+
 </head>
 
 <body>

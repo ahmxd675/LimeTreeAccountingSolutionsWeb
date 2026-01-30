@@ -6,3 +6,26 @@ Allow: /
 
 # Sitemap location
 Sitemap: https://limetreeaccounting.org/sitemap.xml
+
+# LLMs.txt for AI crawlers (ChatGPT, Perplexity, Claude, Perplexity, etc.)
+# See: https://llmstxt.org/
+LLMsTxt: https://limetreeaccounting.org/llms.txt
+
+# Explicitly allow AI crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
