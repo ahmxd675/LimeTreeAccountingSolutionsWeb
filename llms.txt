@@ -17,6 +17,8 @@ LimeTree Accounting Solutions is a Glasgow-based accountancy practice led by Sar
 - **Self-Assessment Tax Returns**: Complete preparation and filing of personal tax returns for employees, self-employed individuals, landlords, and those with complex tax affairs. We ensure maximum allowable deductions and on-time submission to HMRC.
 - **Corporation Tax**: Full corporation tax return preparation and filing for limited companies, including tax planning advice to minimize liability within HMRC guidelines.
 - **VAT Returns**: VAT registration, quarterly/monthly return preparation, and Making Tax Digital (MTD) compliance for VAT-registered businesses.
+- **Payroll**: PAYE payroll, payslips, Real Time Information (RTI) submissions, starter and leaver changes, and payroll record support for small employers.
+- **HMRC Support**: Help understanding tax notices, compliance checks, penalties, reasonable-excuse evidence, and appeal responses.
 
 ### Business Services
 - **Company Accounts**: Annual accounts preparation for limited companies, including statutory accounts, management accounts, and Companies House filings.
@@ -94,12 +96,22 @@ Our blog provides free tax guides and advice for our key client niches:
 
 ### General Tax Advice
 - [Self-Assessment Deadline Tips](/blog/self-assessment-deadline-tips.html) - Avoid the 31st January panic
+- [HMRC Penalty Appeal Help](/blog/hmrc-penalty-appeal-accountant-help.html) - What to do when HMRC issues a penalty
 
 ### Tax Compliance & Changes
 - [Making Tax Digital Guide 2026](/blog/making-tax-digital-guide.html) - Complete MTD guide for VAT, Income Tax, and self-employed
 - [Payment on Account Explained](/blog/payment-on-account-explained.html) - How advance tax payments work and how to manage them
+- [VAT Registration Threshold UK 2026](/blog/vat-registration-threshold-guide-uk.html) - When a business should register and what happens next
+
+### Employers & Contractors
+- [Payroll Services for Small Businesses](/blog/payroll-services-small-businesses-glasgow.html) - PAYE, RTI and payroll support in Glasgow
+- [Auto-Enrolment Pension Guide](/blog/auto-enrolment-pension-payroll-guide.html) - Payroll and workplace pension duties for small employers
+- [IR35 Contractor Tax Guide](/blog/ir35-contractor-tax-guide.html) - Inside and outside IR35 for UK contractors
 
 ### Healthcare Professionals
 - [Self-Employed NHS Staff Tax Guide](/blog/self-employed-nhs-tax-guide.html) - Tax refunds and expense claims for locum doctors, agency nurses, and NHS contractors
+
+### Landlords & Property Services
+- [Landlord Accounting Services Glasgow](/blog/landlord-accounting-services-glasgow.html) - Rental accounts, allowable expenses and property tax support
 
 Contact LimeTree Accounting Solutions at 07800 874306 for a free consultation.
