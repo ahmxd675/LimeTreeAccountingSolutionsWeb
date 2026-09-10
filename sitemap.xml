@@ -25,19 +25,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://limetreeaccounting.org/privacy-policy.html</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://limetreeaccounting.org/llms.txt</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
   <!-- Service Pages -->
   <url>
     <loc>https://limetreeaccounting.org/services/self-assessment.html</loc>
@@ -256,6 +243,42 @@
   <url>
     <loc>https://limetreeaccounting.org/blog/hmrc-tax-queries-help.html</loc>
     <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://limetreeaccounting.org/blog/landlord-accounting-services-glasgow.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://limetreeaccounting.org/blog/payroll-services-small-businesses-glasgow.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://limetreeaccounting.org/blog/hmrc-penalty-appeal-accountant-help.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://limetreeaccounting.org/blog/ir35-contractor-tax-guide.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://limetreeaccounting.org/blog/auto-enrolment-pension-payroll-guide.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://limetreeaccounting.org/blog/vat-registration-threshold-guide-uk.html</loc>
+    <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
