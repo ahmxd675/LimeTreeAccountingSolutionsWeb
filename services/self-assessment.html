@@ -18,7 +18,7 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://limetreeaccounting.org/services/self-assessment.html">
+    <meta property="og:url" content="https://limetreeaccounting.org/services/self-assessment">
     <meta property="og:title" content="Self-Assessment Tax Returns Glasgow | LimeTree Accounting Solutions">
     <meta property="og:description"
         content="Expert self-assessment tax return services in Glasgow. We handle HMRC compliance, maximise your tax reliefs, and ensure on-time submission.">
@@ -38,7 +38,7 @@
     <link rel="stylesheet" href="../css/styles.css">
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://limetreeaccounting.org/services/self-assessment.html">
+    <link rel="canonical" href="https://limetreeaccounting.org/services/self-assessment">
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-4HP6V1GTMG"></script>
@@ -57,6 +57,7 @@
         "name": "Self-Assessment Tax Returns",
         "provider": {
             "@type": "AccountingService",
+            "@id": "https://limetreeaccounting.org/#business",
             "name": "LimeTree Accounting Solutions",
             "address": {
                 "@type": "PostalAddress",
@@ -72,6 +73,68 @@
             "name": "Glasgow"
         },
         "description": "Professional self-assessment tax return preparation and submission for individuals, self-employed, and landlords in Glasgow."
+    }
+    </script>
+    <meta property="og:image" content="https://limetreeaccounting.org/images/og-image.jpg">
+    <meta property="og:site_name" content="LimeTree Accounting Solutions">
+    <meta property="og:locale" content="en_GB">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "When is the Self-Assessment deadline?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "For the 2025/26 tax year (6 April 2025 to 5 April 2026), the online return and any tax owed are due by 31 January 2027. Paper returns are due by 31 October 2026. If you make payments on account, the second payment is due by 31 July."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens if I miss the deadline?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "HMRC charges an automatic £100 penalty, even if you owe no tax. After 3 months, £10 a day is added for up to 90 days (£900). At 6 and 12 months, a further penalty of £300 or 5% of the tax due, whichever is higher, is added each time. Interest is also charged on late payments."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does Making Tax Digital affect my tax return?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "From 6 April 2026, sole traders and landlords with qualifying income over £50,000 must keep digital records and send quarterly updates to HMRC using compatible software. The threshold falls to £30,000 from April 2027 and is planned to fall to £20,000 from April 2028. We can set you up and handle the quarterly updates."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What information do I need to give you?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Usually your UTR number, P60 or P45 for any employment, records of business income and expenses, rental income and costs, bank interest, dividends, pension contributions and Gift Aid donations. We send you a simple checklist so nothing is missed."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "I've never filed before. Can you register me with HMRC?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. If you became self-employed or started receiving untaxed income, you must register for Self-Assessment by 5 October after the end of the tax year in which it started. We can register you, obtain your UTR and file your first return."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How much does an accountant charge for a tax return?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "It depends on your income sources and how organised your records are. We offer a free initial consultation and give you a clear quote before any work starts, so there are no surprises."
+                }
+            }
+        ]
     }
     </script>
 </head>
@@ -98,10 +161,10 @@
             <nav class="nav-main" role="navigation" aria-label="Main navigation">
                 <ul class="nav-list">
                     <li><a href="../" class="nav-link">Home</a></li>
-                    <li><a href="../about.html" class="nav-link">About</a></li>
-                    <li><a href="../services.html" class="nav-link active">Services</a></li>
+                    <li><a href="../about" class="nav-link">About</a></li>
+                    <li><a href="../services" class="nav-link active">Services</a></li>
                     <li><a href="../blog/" class="nav-link">Blog</a></li>
-                    <li><a href="../contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="../contact" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
 
@@ -115,7 +178,7 @@
                     </svg>
                     <span>07800 874306</span>
                 </a>
-                <a href="../contact.html" class="btn btn-primary btn-sm">Get a Quote</a>
+                <a href="../contact" class="btn btn-primary btn-sm">Get a Quote</a>
             </div>
 
             <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
@@ -134,7 +197,7 @@
                     <nav class="breadcrumb" aria-label="Breadcrumb">
                         <a href="../">Home</a>
                         <span>/</span>
-                        <a href="../services.html">Services</a>
+                        <a href="../services">Services</a>
                         <span>/</span>
                         <span class="current">Self-Assessment Tax Returns</span>
                     </nav>
@@ -144,6 +207,17 @@
                 </div>
             </div>
         </section>
+
+        <!-- Quick Answer -->
+        <section class="section-sm">
+            <div class="container">
+                <div class="testimonial-card" style="max-width: 900px; margin: 0 auto;">
+                    <h2 style="margin-bottom: var(--spacing-sm);">At a Glance</h2>
+                    <p style="margin: 0;">LimeTree Accounting Solutions prepares and files Self-Assessment tax returns for sole traders, landlords, company directors and anyone with untaxed income, from our office in Govanhill on Glasgow's Southside and for clients across Glasgow. Online returns for the 2025/26 tax year are due by 31 January 2027. We check every allowable expense and relief, file directly with HMRC and explain exactly what you owe and when.</p>
+                </div>
+            </div>
+        </section>
+
 
         <!-- Important Tax Law Changes Alert -->
         <section class="law-changes section-sm">
@@ -164,7 +238,7 @@
                         <p style="margin-bottom: var(--spacing-md);">With Making Tax Digital (MTD) expanding and HMRC
                             increasing scrutiny, having a professional accountant prepare your self-assessment has never
                             been more important. DIY tax returns risk missed deductions and costly errors.</p>
-                        <a href="../contact.html" class="btn btn-secondary">Get Professional Help Today</a>
+                        <a href="../contact" class="btn btn-secondary">Get Professional Help Today</a>
                     </div>
                 </div>
             </div>
@@ -225,7 +299,7 @@
                                     stroke-linejoin="round">
                                     <polyline points="20 6 9 17 4 12"></polyline>
                                 </svg>
-                                <span>Earn over £100,000 per year</span>
+                                <span>Have untaxed income over £2,500 (for example tips or commission)</span>
                             </li>
                             <li>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
@@ -399,7 +473,7 @@
                             <h3>Get Started Today</h3>
                             <p>Ready to take the stress out of your tax return? Contact us for a free consultation and
                                 quote.</p>
-                            <a href="../contact.html" class="btn btn-primary">Get a Free Quote</a>
+                            <a href="../contact" class="btn btn-primary">Get a Free Quote</a>
                             <a href="tel:07800874306" class="btn btn-outline">Call 07800 874306</a>
                         </div>
 
@@ -407,7 +481,7 @@
                             <h3>Related Services</h3>
                             <ul class="related-services">
                                 <li>
-                                    <a href="corporation-tax.html">
+                                    <a href="corporation-tax">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                                             stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                             stroke-linejoin="round">
@@ -417,7 +491,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="vat-returns.html">
+                                    <a href="vat-returns">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                                             stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                             stroke-linejoin="round">
@@ -427,7 +501,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="company-accounts.html">
+                                    <a href="company-accounts">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                                             stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                             stroke-linejoin="round">
@@ -437,7 +511,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="company-formation.html">
+                                    <a href="company-formation">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                                             stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                             stroke-linejoin="round">
@@ -460,6 +534,25 @@
             </div>
         </section>
 
+        <!-- FAQ -->
+        <section class="section section-bg">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Common questions about Self-Assessment tax returns in Glasgow</p>
+                </div>
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div class="testimonial-card" style="margin-bottom: var(--spacing-lg);"><h3 style="margin-bottom: var(--spacing-sm);">When is the Self-Assessment deadline?</h3><p style="margin:0; color: var(--neutral-600);">For the 2025/26 tax year (6 April 2025 to 5 April 2026), the online return and any tax owed are due by 31 January 2027. Paper returns are due by 31 October 2026. If you make payments on account, the second payment is due by 31 July.</p></div>
+                    <div class="testimonial-card" style="margin-bottom: var(--spacing-lg);"><h3 style="margin-bottom: var(--spacing-sm);">What happens if I miss the deadline?</h3><p style="margin:0; color: var(--neutral-600);">HMRC charges an automatic £100 penalty, even if you owe no tax. After 3 months, £10 a day is added for up to 90 days (£900). At 6 and 12 months, a further penalty of £300 or 5% of the tax due, whichever is higher, is added each time. Interest is also charged on late payments.</p></div>
+                    <div class="testimonial-card" style="margin-bottom: var(--spacing-lg);"><h3 style="margin-bottom: var(--spacing-sm);">Does Making Tax Digital affect my tax return?</h3><p style="margin:0; color: var(--neutral-600);">From 6 April 2026, sole traders and landlords with qualifying income over £50,000 must keep digital records and send quarterly updates to HMRC using compatible software. The threshold falls to £30,000 from April 2027 and is planned to fall to £20,000 from April 2028. We can set you up and handle the quarterly updates.</p></div>
+                    <div class="testimonial-card" style="margin-bottom: var(--spacing-lg);"><h3 style="margin-bottom: var(--spacing-sm);">What information do I need to give you?</h3><p style="margin:0; color: var(--neutral-600);">Usually your UTR number, P60 or P45 for any employment, records of business income and expenses, rental income and costs, bank interest, dividends, pension contributions and Gift Aid donations. We send you a simple checklist so nothing is missed.</p></div>
+                    <div class="testimonial-card" style="margin-bottom: var(--spacing-lg);"><h3 style="margin-bottom: var(--spacing-sm);">I've never filed before. Can you register me with HMRC?</h3><p style="margin:0; color: var(--neutral-600);">Yes. If you became self-employed or started receiving untaxed income, you must register for Self-Assessment by 5 October after the end of the tax year in which it started. We can register you, obtain your UTR and file your first return.</p></div>
+                    <div class="testimonial-card" style="margin-bottom: var(--spacing-lg);"><h3 style="margin-bottom: var(--spacing-sm);">How much does an accountant charge for a tax return?</h3><p style="margin:0; color: var(--neutral-600);">It depends on your income sources and how organised your records are. We offer a free initial consultation and give you a clear quote before any work starts, so there are no surprises.</p></div>
+                    <p style="text-align: center; margin-top: var(--spacing-lg);"><strong>Related guides:</strong> <a href="../blog/self-assessment-deadline-tips">Self-Assessment deadline tips</a> &middot; <a href="../blog/making-tax-digital-guide">Making Tax Digital guide 2026</a> &middot; <a href="../blog/payment-on-account-explained">Payments on account explained</a> &middot; <a href="../blog/maximise-tax-deductions-detailed-records">How detailed records reduce your tax bill</a></p>
+                </div>
+            </div>
+        </section>
+
         <!-- CTA Section -->
         <section class="cta-section">
             <div class="container">
@@ -469,7 +562,7 @@
                         stress-free self-assessment experience.</p>
 
                     <div class="cta-buttons">
-                        <a href="../contact.html" class="btn btn-primary btn-lg">Book Free Consultation</a>
+                        <a href="../contact" class="btn btn-primary btn-lg">Book Free Consultation</a>
                     </div>
 
                     <div class="cta-phone">
@@ -511,22 +604,22 @@
                 <div class="footer-column">
                     <h4>Services</h4>
                     <ul class="footer-links">
-                        <li><a href="self-assessment.html">Self-Assessment</a></li>
-                        <li><a href="corporation-tax.html">Corporation Tax</a></li>
-                        <li><a href="vat-returns.html">VAT Returns</a></li>
-                        <li><a href="company-accounts.html">Company Accounts</a></li>
-                        <li><a href="company-formation.html">Company Formation</a></li>
-                        <li><a href="../services.html">View All Services</a></li>
+                        <li><a href="self-assessment">Self-Assessment</a></li>
+                        <li><a href="corporation-tax">Corporation Tax</a></li>
+                        <li><a href="vat-returns">VAT Returns</a></li>
+                        <li><a href="company-accounts">Company Accounts</a></li>
+                        <li><a href="company-formation">Company Formation</a></li>
+                        <li><a href="../services">View All Services</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-column">
                     <h4>Quick Links</h4>
                     <ul class="footer-links">
-                        <li><a href="../about.html">About Us</a></li>
-                        <li><a href="../services.html">Our Services</a></li>
-                        <li><a href="../contact.html">Contact</a></li>
-                        <li><a href="../privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="../about">About Us</a></li>
+                        <li><a href="../services">Our Services</a></li>
+                        <li><a href="../contact">Contact</a></li>
+                        <li><a href="../privacy-policy">Privacy Policy</a></li>
                     </ul>
                 </div>
 
@@ -564,8 +657,7 @@
             <div class="footer-bottom">
                 <p>&copy; 2025 LimeTree Accounting Solutions. All rights reserved.</p>
                 <div class="footer-legal">
-                    <a href="../privacy-policy.html">Privacy Policy</a>
-                    <a href="../terms.html">Terms of Service</a>
+                    <a href="../privacy-policy">Privacy Policy</a>
                 </div>
             </div>
         </div>

@@ -22,7 +22,7 @@
     <meta property="og:title" content="Accountant in Glasgow | LimeTree Accounting Solutions">
     <meta property="og:description"
         content="Professional accountancy services in Glasgow. Self-assessment, corporation tax, VAT returns, company formation & more. AAT accredited.">
-    <meta property="og:image" content="images/og-image.jpg">
+    <meta property="og:image" content="https://limetreeaccounting.org/images/og-image.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -51,10 +51,11 @@
     <!-- Local Business Schema -->
     <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
         "@type": "AccountingService",
+        "@id": "https://limetreeaccounting.org/#business",
+        "@context": "https://schema.org",
         "name": "LimeTree Accounting Solutions",
-        "image": "https://limetreeaccounting.org/images/logo.png",
+        "image": "https://limetreeaccounting.org/images/og-image.jpg",
         "url": "https://limetreeaccounting.org",
         "telephone": "07800874306",
         "email": "limetreeaccounts@yahoo.com",
@@ -80,7 +81,13 @@
         },
         "openingHoursSpecification": {
             "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+            ],
             "opens": "09:00",
             "closes": "17:30"
         },
@@ -96,14 +103,94 @@
             "Companies House compliance"
         ],
         "areaServed": [
-            {"@type": "City", "name": "Glasgow"},
-            {"@type": "Place", "name": "Govanhill"},
-            {"@type": "Place", "name": "Shawlands"},
-            {"@type": "Place", "name": "Queens Park"},
-            {"@type": "Place", "name": "Cathcart"},
-            {"@type": "Place", "name": "Mount Florida"},
-            {"@type": "Place", "name": "Pollokshields"},
-            {"@type": "Place", "name": "Langside"}
+            {
+                "@type": "City",
+                "name": "Glasgow"
+            },
+            {
+                "@type": "Place",
+                "name": "Govanhill"
+            },
+            {
+                "@type": "Place",
+                "name": "Shawlands"
+            },
+            {
+                "@type": "Place",
+                "name": "Queens Park"
+            },
+            {
+                "@type": "Place",
+                "name": "Cathcart"
+            },
+            {
+                "@type": "Place",
+                "name": "Mount Florida"
+            },
+            {
+                "@type": "Place",
+                "name": "Pollokshields"
+            },
+            {
+                "@type": "Place",
+                "name": "Langside"
+            },
+            {
+                "@type": "City",
+                "name": "Clydebank"
+            },
+            {
+                "@type": "Place",
+                "name": "Parkhall"
+            },
+            {
+                "@type": "Place",
+                "name": "Drumry"
+            },
+            {
+                "@type": "Place",
+                "name": "Dalmuir"
+            },
+            {
+                "@type": "Place",
+                "name": "Whitecrook"
+            },
+            {
+                "@type": "Place",
+                "name": "Kilbowie"
+            },
+            {
+                "@type": "Place",
+                "name": "Linnvale"
+            },
+            {
+                "@type": "Place",
+                "name": "Hardgate"
+            },
+            {
+                "@type": "Place",
+                "name": "Duntocher"
+            },
+            {
+                "@type": "Place",
+                "name": "Faifley"
+            },
+            {
+                "@type": "Place",
+                "name": "Old Kilpatrick"
+            },
+            {
+                "@type": "Place",
+                "name": "Bowling"
+            },
+            {
+                "@type": "Place",
+                "name": "Yoker"
+            },
+            {
+                "@type": "Place",
+                "name": "Drumchapel"
+            }
         ],
         "hasCredential": {
             "@type": "EducationalOccupationalCredential",
@@ -117,7 +204,14 @@
             "worstRating": "1",
             "ratingCount": "3",
             "reviewCount": "3"
-        }
+        },
+        "logo": "https://limetreeaccounting.org/images/logo.png",
+        "founder": {
+            "@id": "https://limetreeaccounting.org/about#sardar-muhammad"
+        },
+        "sameAs": [
+            "https://www.instagram.com/limetreeaccounting/"
+        ]
     }
     </script>
 
@@ -147,6 +241,8 @@
     </script>
 
 
+    <meta property="og:site_name" content="LimeTree Accounting Solutions">
+    <meta property="og:locale" content="en_GB">
 </head>
 
 <body>
@@ -172,10 +268,10 @@
             <nav class="nav-main" role="navigation" aria-label="Main navigation">
                 <ul class="nav-list">
                     <li><a href="/" class="nav-link active">Home</a></li>
-                    <li><a href="about.html" class="nav-link">About</a></li>
-                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="about" class="nav-link">About</a></li>
+                    <li><a href="services" class="nav-link">Services</a></li>
                     <li><a href="blog/" class="nav-link">Blog</a></li>
-                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="contact" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
 
@@ -189,7 +285,7 @@
                     </svg>
                     <span>07800 874306</span>
                 </a>
-                <a href="contact.html" class="btn btn-primary btn-sm">Get a Quote</a>
+                <a href="contact" class="btn btn-primary btn-sm">Get a Quote</a>
             </div>
 
             <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
@@ -220,8 +316,8 @@
                         you can focus on what matters most.</p>
 
                     <div class="hero-cta">
-                        <a href="contact.html" class="btn btn-primary btn-lg">Get a Free Consultation</a>
-                        <a href="services.html" class="btn btn-outline btn-lg"
+                        <a href="contact" class="btn btn-primary btn-lg">Get a Free Consultation</a>
+                        <a href="services" class="btn btn-outline btn-lg"
                             style="border-color: var(--primary-lime); color: var(--white);">Our Services</a>
                     </div>
 
@@ -321,7 +417,7 @@
                                     contain errors that trigger HMRC investigations</span>
                             </li>
                         </ul>
-                        <a href="contact.html" class="btn btn-secondary">Speak to an Accountant Today</a>
+                        <a href="contact" class="btn btn-secondary">Speak to an Accountant Today</a>
                     </div>
                 </div>
             </div>
@@ -352,7 +448,7 @@
                         <h3>Tax Services</h3>
                         <p>Self-assessment tax returns, corporation tax, and VAT returns handled with precision. We
                             ensure compliance and maximise your tax efficiency.</p>
-                        <a href="services/self-assessment.html" class="service-link">
+                        <a href="services/self-assessment" class="service-link">
                             Learn more
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -374,7 +470,7 @@
                         <h3>Company Services</h3>
                         <p>From company formation to dissolution, accounts preparation, and Companies House
                             representation. Complete support for your business lifecycle.</p>
-                        <a href="services/company-formation.html" class="service-link">
+                        <a href="services/company-formation" class="service-link">
                             Learn more
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -397,7 +493,7 @@
                         <h3>Charity Services</h3>
                         <p>Expert guidance on charity registration with OSCR, foundation setup, and ongoing compliance.
                             Helping your charitable organisation thrive.</p>
-                        <a href="services/charity-registration.html" class="service-link">
+                        <a href="services/charity-registration" class="service-link">
                             Learn more
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -420,7 +516,7 @@
                         <h3>Property & Business Rates</h3>
                         <p>Commercial lease preparation and rateable value appeals. We help Glasgow businesses reduce
                             their rates burden and manage property documentation.</p>
-                        <a href="services/commercial-lease.html" class="service-link">
+                        <a href="services/commercial-lease" class="service-link">
                             Learn more
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -432,7 +528,7 @@
                 </div>
 
                 <div class="text-center mt-5">
-                    <a href="services.html" class="btn btn-secondary btn-lg">View All Services</a>
+                    <a href="services" class="btn btn-secondary btn-lg">View All Services</a>
                 </div>
             </div>
         </section>
@@ -706,8 +802,8 @@
                         show you how we can help.</p>
 
                     <div class="cta-buttons">
-                        <a href="contact.html" class="btn btn-primary btn-lg">Book Free Consultation</a>
-                        <a href="services.html" class="btn btn-white btn-lg">Explore Our Services</a>
+                        <a href="contact" class="btn btn-primary btn-lg">Book Free Consultation</a>
+                        <a href="services" class="btn btn-white btn-lg">Explore Our Services</a>
                     </div>
 
                     <div class="cta-phone">
@@ -749,22 +845,23 @@
                 <div class="footer-column">
                     <h4>Services</h4>
                     <ul class="footer-links">
-                        <li><a href="services/self-assessment.html">Self-Assessment</a></li>
-                        <li><a href="services/corporation-tax.html">Corporation Tax</a></li>
-                        <li><a href="services/vat-returns.html">VAT Returns</a></li>
-                        <li><a href="services/company-accounts.html">Company Accounts</a></li>
-                        <li><a href="services/company-formation.html">Company Formation</a></li>
-                        <li><a href="services.html">View All Services</a></li>
+                        <li><a href="services/self-assessment">Self-Assessment</a></li>
+                        <li><a href="services/corporation-tax">Corporation Tax</a></li>
+                        <li><a href="services/vat-returns">VAT Returns</a></li>
+                        <li><a href="services/company-accounts">Company Accounts</a></li>
+                        <li><a href="services/company-formation">Company Formation</a></li>
+                        <li><a href="services">View All Services</a></li>
+                        <li><a href="services/clydebank-accountant">Accountant in Clydebank</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-column">
                     <h4>Quick Links</h4>
                     <ul class="footer-links">
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="services.html">Our Services</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="about">About Us</a></li>
+                        <li><a href="services">Our Services</a></li>
+                        <li><a href="contact">Contact</a></li>
+                        <li><a href="privacy-policy">Privacy Policy</a></li>
                     </ul>
                 </div>
 
@@ -812,8 +909,7 @@
             <div class="footer-bottom">
                 <p>&copy; 2026 LimeTree Accounting Solutions. All rights reserved.</p>
                 <div class="footer-legal">
-                    <a href="privacy-policy.html">Privacy Policy</a>
-                    <a href="terms.html">Terms of Service</a>
+                    <a href="privacy-policy">Privacy Policy</a>
                 </div>
             </div>
         </div>

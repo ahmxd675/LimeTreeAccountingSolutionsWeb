@@ -11,7 +11,7 @@
     <meta name="keywords" content="landlord accountant Glasgow, property accountant Glasgow, rental income tax return, buy to let accountant, property tax Glasgow, landlord tax return, rental property accountant, BTL accountant Scotland">
     <meta name="robots" content="index, follow">
 
-    <link rel="canonical" href="https://limetreeaccounting.org/services/landlord-accountant.html">
+    <link rel="canonical" href="https://limetreeaccounting.org/services/landlord-accountant">
     <link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,13 +35,26 @@
         "name": "Landlord & Property Accountant",
         "provider": {
             "@type": "AccountingService",
+            "@id": "https://limetreeaccounting.org/#business",
             "name": "LimeTree Accounting Solutions",
             "telephone": "07800874306",
-            "address": {"@type": "PostalAddress", "streetAddress": "Room 8, 77 Torisdale Street", "addressLocality": "Glasgow", "postalCode": "G42 8PW", "addressCountry": "GB"}
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Room 8, 77 Torisdale Street",
+                "addressLocality": "Glasgow",
+                "postalCode": "G42 8PW",
+                "addressCountry": "GB"
+            }
         },
-        "areaServed": {"@type": "City", "name": "Glasgow"},
+        "areaServed": {
+            "@type": "City",
+            "name": "Glasgow"
+        },
         "description": "Specialist accountant for landlords and property investors in Glasgow. Rental income tax returns, expense claims, mortgage interest relief, and capital gains tax planning.",
-        "audience": {"@type": "Audience", "audienceType": "Landlords, Property Investors, Buy-to-Let Owners"}
+        "audience": {
+            "@type": "Audience",
+            "audienceType": "Landlords, Property Investors, Buy-to-Let Owners"
+        }
     }
     </script>
 
@@ -51,10 +64,38 @@
         "@context": "https://schema.org",
         "@type": "FAQPage",
         "mainEntity": [
-            {"@type": "Question", "name": "Do landlords need to file a self-assessment tax return?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, if you receive rental income over £1,000 per year, you must declare it to HMRC through self-assessment. This applies even if you make a loss after expenses."}},
-            {"@type": "Question", "name": "What expenses can landlords claim?", "acceptedAnswer": {"@type": "Answer", "text": "Landlords can claim mortgage interest (restricted to basic rate), repairs and maintenance, letting agent fees, insurance, council tax (when empty), accountancy fees, and travel costs to properties."}},
-            {"@type": "Question", "name": "How does mortgage interest relief work for landlords?", "acceptedAnswer": {"@type": "Answer", "text": "Since April 2020, mortgage interest is no longer fully deductible. Instead, you get a 20% tax credit. We'll calculate this correctly and advise on tax-efficient property ownership structures."}},
-            {"@type": "Question", "name": "Do I need to pay Capital Gains Tax when selling a rental property?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, CGT applies when selling a property that isn't your main residence. The rate is 18% or 24% depending on your income. We can help with CGT planning and calculations."}}
+            {
+                "@type": "Question",
+                "name": "Do landlords need to file a self-assessment tax return?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, if you receive rental income over £1,000 per year, you must declare it to HMRC through self-assessment. This applies even if you make a loss after expenses."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What expenses can landlords claim?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Landlords can claim mortgage interest (restricted to basic rate), repairs and maintenance, letting agent fees, insurance, council tax (when empty), accountancy fees, and travel costs to properties."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does mortgage interest relief work for landlords?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Since April 2020, mortgage interest is no longer fully deductible. Instead, you get a 20% tax credit. We'll calculate this correctly and advise on tax-efficient property ownership structures."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Do I need to pay Capital Gains Tax when selling a rental property?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, CGT applies when selling a property that isn't your main residence. The rate is 18% or 24% depending on your income. We can help with CGT planning and calculations."
+                }
+            }
         ]
     }
     </script>
@@ -65,20 +106,39 @@
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://limetreeaccounting.org/"},
-            {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://limetreeaccounting.org/services.html"},
-            {"@type": "ListItem", "position": 3, "name": "Landlord Accountant", "item": "https://limetreeaccounting.org/services/landlord-accountant.html"}
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://limetreeaccounting.org/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Services",
+                "item": "https://limetreeaccounting.org/services"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Landlord Accountant",
+                "item": "https://limetreeaccounting.org/services/landlord-accountant"
+            }
         ]
     }
     </script>
+    <meta property="og:image" content="https://limetreeaccounting.org/images/og-image.jpg">
+    <meta property="og:site_name" content="LimeTree Accounting Solutions">
+    <meta property="og:locale" content="en_GB">
+    <meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body>
     <header class="header">
         <div class="header-container">
             <a href="../" class="logo"><svg width="40" height="40" viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="20" fill="#166534"/><path d="M20 8C20 8 12 16 12 22C12 26.4183 15.5817 30 20 30C24.4183 30 28 26.4183 28 22C28 16 20 8 20 8Z" fill="#84CC16"/><circle cx="20" cy="22" r="4" fill="#166534"/></svg><span class="logo-text"><span class="company-name">LimeTree</span><span class="tagline">Accounting Solutions</span></span></a>
-            <nav class="nav-main"><ul class="nav-list"><li><a href="../" class="nav-link">Home</a></li><li><a href="../about.html" class="nav-link">About</a></li><li><a href="../services.html" class="nav-link active">Services</a></li><li><a href="../blog/" class="nav-link">Blog</a></li><li><a href="../contact.html" class="nav-link">Contact</a></li></ul></nav>
-            <div class="nav-cta"><a href="tel:07800874306" class="header-phone"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span>07800 874306</span></a><a href="../contact.html" class="btn btn-primary btn-sm">Get a Quote</a></div>
+            <nav class="nav-main"><ul class="nav-list"><li><a href="../" class="nav-link">Home</a></li><li><a href="../about" class="nav-link">About</a></li><li><a href="../services" class="nav-link active">Services</a></li><li><a href="../blog/" class="nav-link">Blog</a></li><li><a href="../contact" class="nav-link">Contact</a></li></ul></nav>
+            <div class="nav-cta"><a href="tel:07800874306" class="header-phone"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span>07800 874306</span></a><a href="../contact" class="btn btn-primary btn-sm">Get a Quote</a></div>
             <button class="menu-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
         </div>
     </header>
@@ -87,7 +147,7 @@
         <section class="page-hero">
             <div class="container">
                 <div class="page-hero-content">
-                    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="../">Home</a><span>/</span><a href="../services.html">Services</a><span>/</span><span class="current">Landlord Accountant</span></nav>
+                    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="../">Home</a><span>/</span><a href="../services">Services</a><span>/</span><span class="current">Landlord Accountant</span></nav>
                     <h1>Accountant for Landlords in Glasgow</h1>
                     <p>Specialist tax returns for landlords and property investors across Glasgow. Whether you own 1 property or 10+, we'll ensure you're tax-efficient and HMRC compliant.</p>
                 </div>
@@ -159,7 +219,7 @@
                 <h2 style="color: white; margin-bottom: var(--spacing-md);">Ready to Get Your Property Taxes Sorted?</h2>
                 <p style="color: rgba(255,255,255,0.9); margin-bottom: var(--spacing-lg);">Free consultation for Glasgow landlords. No obligation.</p>
                 <div style="display: flex; gap: var(--spacing-md); justify-content: center; flex-wrap: wrap;">
-                    <a href="../contact.html" class="btn btn-primary btn-lg">Get a Free Quote</a>
+                    <a href="../contact" class="btn btn-primary btn-lg">Get a Free Quote</a>
                     <a href="tel:07800874306" class="btn btn-outline btn-lg" style="border-color: white; color: white;">Call 07800 874306</a>
                 </div>
             </div>
@@ -170,8 +230,8 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand"><a href="../" class="logo"><svg width="40" height="40" viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="20" fill="#166534"/><path d="M20 8C20 8 12 16 12 22C12 26.4183 15.5817 30 20 30C24.4183 30 28 26.4183 28 22C28 16 20 8 20 8Z" fill="#84CC16"/><circle cx="20" cy="22" r="4" fill="#166534"/></svg><span class="logo-text"><span class="company-name">LimeTree</span><span class="tagline">Accounting Solutions</span></span></a><p>Specialist accountant for landlords and property investors in Glasgow. AAT accredited.</p></div>
-                <div class="footer-column"><h4>Landlord Services</h4><ul class="footer-links"><li><a href="landlord-accountant.html">Landlord Accountant</a></li><li><a href="self-assessment.html">Self-Assessment</a></li><li><a href="company-accounts.html">Company Accounts</a></li><li><a href="../services.html">All Services</a></li></ul></div>
-                <div class="footer-column"><h4>Quick Links</h4><ul class="footer-links"><li><a href="../about.html">About Us</a></li><li><a href="../contact.html">Contact</a></li><li><a href="../privacy-policy.html">Privacy Policy</a></li></ul></div>
+                <div class="footer-column"><h4>Landlord Services</h4><ul class="footer-links"><li><a href="landlord-accountant">Landlord Accountant</a></li><li><a href="self-assessment">Self-Assessment</a></li><li><a href="company-accounts">Company Accounts</a></li><li><a href="../services">All Services</a></li></ul></div>
+                <div class="footer-column"><h4>Quick Links</h4><ul class="footer-links"><li><a href="../about">About Us</a></li><li><a href="../contact">Contact</a></li><li><a href="../privacy-policy">Privacy Policy</a></li></ul></div>
                 <div class="footer-column"><h4>Contact</h4><div class="footer-contact-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg><a href="tel:07800874306">07800 874306</a></div><div class="footer-contact-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Glasgow, G42 8PW</span></div></div>
             </div>
             <div class="footer-bottom"><p>&copy; 2026 LimeTree Accounting Solutions. All rights reserved.</p></div>

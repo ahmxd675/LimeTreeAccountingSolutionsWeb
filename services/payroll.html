@@ -11,7 +11,7 @@
         content="payroll services Glasgow, PAYE accountant Glasgow, payroll bureau Glasgow, RTI submissions, small business payroll, payroll accountant Scotland">
     <meta name="robots" content="index, follow">
     <meta name="author" content="LimeTree Accounting Solutions">
-    <link rel="canonical" href="https://limetreeaccounting.org/services/payroll.html">
+    <link rel="canonical" href="https://limetreeaccounting.org/services/payroll">
     <link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,13 +26,23 @@
         "name": "Payroll Services",
         "provider": {
             "@type": "AccountingService",
+            "@id": "https://limetreeaccounting.org/#business",
             "name": "LimeTree Accounting Solutions",
             "url": "https://limetreeaccounting.org/",
             "telephone": "07800874306",
             "email": "limetreeaccounts@yahoo.com",
-            "address": {"@type": "PostalAddress", "streetAddress": "Room 8, 77 Torisdale Street", "addressLocality": "Glasgow", "postalCode": "G42 8PW", "addressCountry": "GB"}
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Room 8, 77 Torisdale Street",
+                "addressLocality": "Glasgow",
+                "postalCode": "G42 8PW",
+                "addressCountry": "GB"
+            }
         },
-        "areaServed": {"@type": "City", "name": "Glasgow"},
+        "areaServed": {
+            "@type": "City",
+            "name": "Glasgow"
+        },
         "description": "PAYE payroll, payslips, Real Time Information submissions and payroll record support for small employers."
     }
     </script>
@@ -41,12 +51,45 @@
         "@context": "https://schema.org",
         "@type": "FAQPage",
         "mainEntity": [
-            {"@type": "Question", "name": "Can you run payroll for one employee?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We support small employers with one employee as well as growing teams, including PAYE records, payslips and RTI submissions."}},
-            {"@type": "Question", "name": "What does your payroll service include?", "acceptedAnswer": {"@type": "Answer", "text": "We can help with PAYE setup, salary and hourly pay calculations, payslips, RTI submissions, starters, leavers, tax codes and payroll reports."}},
-            {"@type": "Question", "name": "Can you help with workplace pension payroll information?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We can help coordinate payroll figures and pension deductions, while the employer remains responsible for choosing a pension scheme and meeting legal duties."}}
+            {
+                "@type": "Question",
+                "name": "Can you run payroll for one employee?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. We support small employers with one employee as well as growing teams, including PAYE records, payslips and RTI submissions."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What does your payroll service include?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We can help with PAYE setup, salary and hourly pay calculations, payslips, RTI submissions, starters, leavers, tax codes and payroll reports."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can you help with workplace pension payroll information?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. We can help coordinate payroll figures and pension deductions, while the employer remains responsible for choosing a pension scheme and meeting legal duties."
+                }
+            }
         ]
     }
     </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4HP6V1GTMG"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-4HP6V1GTMG');
+    </script>
+    <meta property="og:image" content="https://limetreeaccounting.org/images/og-image.jpg">
+    <meta property="og:site_name" content="LimeTree Accounting Solutions">
+    <meta property="og:locale" content="en_GB">
+    <meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body>
@@ -62,14 +105,14 @@
             <nav class="nav-main">
                 <ul class="nav-list">
                     <li><a href="../" class="nav-link">Home</a></li>
-                    <li><a href="../about.html" class="nav-link">About</a></li>
-                    <li><a href="../services.html" class="nav-link active">Services</a></li>
+                    <li><a href="../about" class="nav-link">About</a></li>
+                    <li><a href="../services" class="nav-link active">Services</a></li>
                     <li><a href="../blog/" class="nav-link">Blog</a></li>
-                    <li><a href="../contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="../contact" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
             <div class="nav-cta"><a href="tel:07800874306" class="header-phone"><span>07800 874306</span></a><a
-                    href="../contact.html" class="btn btn-primary btn-sm">Get a Quote</a></div>
+                    href="../contact" class="btn btn-primary btn-sm">Get a Quote</a></div>
         </div>
     </header>
     <main id="main-content">
@@ -77,7 +120,7 @@
             <div class="container">
                 <div class="page-hero-content">
                     <nav class="breadcrumb" aria-label="Breadcrumb"><a href="../">Home</a><span>/</span><a
-                            href="../services.html">Services</a><span>/</span><span class="current">Payroll
+                            href="../services">Services</a><span>/</span><span class="current">Payroll
                             Services</span></nav>
                     <h1>Payroll Services in Glasgow</h1>
                     <p>Reliable PAYE payroll support for small businesses, directors and growing employers. We handle
@@ -192,7 +235,7 @@
                 <h2 style="color: white; margin-bottom: var(--spacing-md);">Need Payroll Support?</h2>
                 <p style="color: rgba(255,255,255,0.9); margin-bottom: var(--spacing-lg);">Tell us about your team and
                     payroll routine. We will explain the next steps and provide a clear quote.</p><a
-                    href="../contact.html" class="btn btn-primary btn-lg">Ask About Payroll Services</a>
+                    href="../contact" class="btn btn-primary btn-lg">Ask About Payroll Services</a>
             </div>
         </section>
     </main>

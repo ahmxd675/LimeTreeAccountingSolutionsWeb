@@ -9,7 +9,7 @@
         content="Expert corporation tax return services in Glasgow. Accurate CT600 filing, tax planning, and HMRC compliance. AAT accredited accountants. Call 07800 874306.">
     <meta name="keywords"
         content="corporation tax Glasgow, CT600 accountant Glasgow, company tax return Glasgow, business tax accountant">
-    <link rel="canonical" href="https://limetreeaccounting.org/services/corporation-tax.html">
+    <link rel="canonical" href="https://limetreeaccounting.org/services/corporation-tax">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,7 +17,28 @@
         rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
     <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"Service","name":"Corporation Tax Returns","provider":{"@type":"AccountingService","name":"LimeTree Accounting Solutions","telephone":"07800874306","address":{"@type":"PostalAddress","streetAddress":"Room 8, 77 Torisdale Street","addressLocality":"Glasgow","postalCode":"G42 8PW","addressCountry":"GB"}},"areaServed":{"@type":"City","name":"Glasgow"}}
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Corporation Tax Returns",
+        "provider": {
+            "@type": "AccountingService",
+            "@id": "https://limetreeaccounting.org/#business",
+            "name": "LimeTree Accounting Solutions",
+            "telephone": "07800874306",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Room 8, 77 Torisdale Street",
+                "addressLocality": "Glasgow",
+                "postalCode": "G42 8PW",
+                "addressCountry": "GB"
+            }
+        },
+        "areaServed": {
+            "@type": "City",
+            "name": "Glasgow"
+        }
+    }
     </script>
 
     <!-- Google tag (gtag.js) -->
@@ -27,6 +48,52 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-4HP6V1GTMG');
+    </script>
+    <meta property="og:image" content="https://limetreeaccounting.org/images/og-image.jpg">
+    <meta property="og:site_name" content="LimeTree Accounting Solutions">
+    <meta property="og:locale" content="en_GB">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is the Corporation Tax rate for 2026/27?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The small profits rate is 19% for profits up to £50,000 and the main rate is 25% for profits over £250,000. Companies with profits between £50,000 and £250,000 pay the main rate reduced by marginal relief, giving an effective rate between the two. These limits are reduced if you have associated companies or a short accounting period."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "When do I pay Corporation Tax?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "For most small companies, Corporation Tax is due 9 months and 1 day after the end of the accounting period. The CT600 return is due 12 months after the period end. Large companies with profits over £1.5 million pay in quarterly instalments."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What expenses can a limited company deduct?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Costs incurred wholly and exclusively for the business are generally deductible, including salaries, employer pension contributions, rent, software, professional fees and business travel. Equipment usually qualifies for capital allowances, including the Annual Investment Allowance of up to £1 million."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can you help reduce my company's Corporation Tax?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, within the rules. We make sure all allowable costs and capital allowances are claimed, review the timing of spending and pension contributions, and plan director pay so salary and dividends are tax-efficient overall."
+                }
+            }
+        ]
+    }
     </script>
 </head>
 
@@ -47,10 +114,10 @@
             <nav class="nav-main" role="navigation" aria-label="Main navigation">
                 <ul class="nav-list">
                     <li><a href="../" class="nav-link">Home</a></li>
-                    <li><a href="../about.html" class="nav-link">About</a></li>
-                    <li><a href="../services.html" class="nav-link active">Services</a></li>
+                    <li><a href="../about" class="nav-link">About</a></li>
+                    <li><a href="../services" class="nav-link active">Services</a></li>
                     <li><a href="../blog/" class="nav-link">Blog</a></li>
-                    <li><a href="../contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="../contact" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
             <div class="nav-cta">
@@ -59,7 +126,7 @@
                         <path
                             d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
                     </svg><span>07800 874306</span></a>
-                <a href="../contact.html" class="btn btn-primary btn-sm">Get a Quote</a>
+                <a href="../contact" class="btn btn-primary btn-sm">Get a Quote</a>
             </div>
             <button class="menu-toggle" aria-label="Toggle menu"
                 aria-expanded="false"><span></span><span></span><span></span></button>
@@ -72,7 +139,7 @@
                 <div class="page-hero-content">
                     <nav class="breadcrumb" aria-label="Breadcrumb">
                         <a href="../">Home</a><span>/</span><a
-                            href="../services.html">Services</a><span>/</span><span class="current">Corporation
+                            href="../services">Services</a><span>/</span><span class="current">Corporation
                             Tax</span>
                     </nav>
                     <h1>Corporation Tax Returns in Glasgow</h1>
@@ -81,6 +148,17 @@
                 </div>
             </div>
         </section>
+
+        <!-- Quick Answer -->
+        <section class="section-sm">
+            <div class="container">
+                <div class="testimonial-card" style="max-width: 900px; margin: 0 auto;">
+                    <h2 style="margin-bottom: var(--spacing-sm);">At a Glance</h2>
+                    <p style="margin: 0;">LimeTree Accounting Solutions prepares and files CT600 Corporation Tax returns for limited companies in Glasgow. For 2026/27, companies pay 19% on profits up to £50,000 and 25% on profits over £250,000, with marginal relief in between. Corporation Tax is due 9 months and 1 day after your year end, and the return 12 months after it.</p>
+                </div>
+            </div>
+        </section>
+
 
         <section class="section">
             <div class="container">
@@ -132,7 +210,7 @@
                             <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                                     stroke="currentColor" stroke-width="2">
                                     <polyline points="20 6 9 17 4 12" />
-                                </svg><span><strong>9 months after year end</strong> – Corporation Tax payment
+                                </svg><span><strong>9 months and 1 day after year end</strong> – Corporation Tax payment
                                     due</span></li>
                             <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                                     stroke="currentColor" stroke-width="2">
@@ -141,7 +219,7 @@
                                     deadline</span></li>
                         </ul>
 
-                        <h2>Current Corporation Tax Rates (2024/25)</h2>
+                        <h2>Current Corporation Tax Rates (2026/27)</h2>
                         <p>Understanding the rates helps with tax planning:</p>
                         <ul class="service-list">
                             <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
@@ -185,21 +263,21 @@
                         <div class="sidebar-card">
                             <h3>Get Started Today</h3>
                             <p>Need help with your Corporation Tax return? Contact us for a free quote.</p>
-                            <a href="../contact.html" class="btn btn-primary">Get a Free Quote</a>
+                            <a href="../contact" class="btn btn-primary">Get a Free Quote</a>
                             <a href="tel:07800874306" class="btn btn-outline">Call 07800 874306</a>
                         </div>
                         <div class="sidebar-card">
                             <h3>Related Services</h3>
                             <ul class="related-services">
-                                <li><a href="company-accounts.html"><svg xmlns="http://www.w3.org/2000/svg"
+                                <li><a href="company-accounts"><svg xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                             <polyline points="9 18 15 12 9 6" />
                                         </svg>Company Accounts</a></li>
-                                <li><a href="vat-returns.html"><svg xmlns="http://www.w3.org/2000/svg"
+                                <li><a href="vat-returns"><svg xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                             <polyline points="9 18 15 12 9 6" />
                                         </svg>VAT Returns</a></li>
-                                <li><a href="self-assessment.html"><svg xmlns="http://www.w3.org/2000/svg"
+                                <li><a href="self-assessment"><svg xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                             <polyline points="9 18 15 12 9 6" />
                                         </svg>Self-Assessment</a></li>
@@ -210,12 +288,29 @@
             </div>
         </section>
 
+        <!-- FAQ -->
+        <section class="section section-bg">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Common questions about Corporation Tax</p>
+                </div>
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div class="testimonial-card" style="margin-bottom: var(--spacing-lg);"><h3 style="margin-bottom: var(--spacing-sm);">What is the Corporation Tax rate for 2026/27?</h3><p style="margin:0; color: var(--neutral-600);">The small profits rate is 19% for profits up to £50,000 and the main rate is 25% for profits over £250,000. Companies with profits between £50,000 and £250,000 pay the main rate reduced by marginal relief, giving an effective rate between the two. These limits are reduced if you have associated companies or a short accounting period.</p></div>
+                    <div class="testimonial-card" style="margin-bottom: var(--spacing-lg);"><h3 style="margin-bottom: var(--spacing-sm);">When do I pay Corporation Tax?</h3><p style="margin:0; color: var(--neutral-600);">For most small companies, Corporation Tax is due 9 months and 1 day after the end of the accounting period. The CT600 return is due 12 months after the period end. Large companies with profits over £1.5 million pay in quarterly instalments.</p></div>
+                    <div class="testimonial-card" style="margin-bottom: var(--spacing-lg);"><h3 style="margin-bottom: var(--spacing-sm);">What expenses can a limited company deduct?</h3><p style="margin:0; color: var(--neutral-600);">Costs incurred wholly and exclusively for the business are generally deductible, including salaries, employer pension contributions, rent, software, professional fees and business travel. Equipment usually qualifies for capital allowances, including the Annual Investment Allowance of up to £1 million.</p></div>
+                    <div class="testimonial-card" style="margin-bottom: var(--spacing-lg);"><h3 style="margin-bottom: var(--spacing-sm);">Can you help reduce my company's Corporation Tax?</h3><p style="margin:0; color: var(--neutral-600);">Yes, within the rules. We make sure all allowable costs and capital allowances are claimed, review the timing of spending and pension contributions, and plan director pay so salary and dividends are tax-efficient overall.</p></div>
+                    <p style="text-align: center; margin-top: var(--spacing-lg);"><strong>Related guides:</strong> <a href="../blog/corporation-tax-small-company-guide">Corporation Tax for small companies</a> &middot; <a href="../blog/director-salary-dividends-2026">Director salary vs dividends 2026/27</a></p>
+                </div>
+            </div>
+        </section>
+
         <section class="cta-section">
             <div class="container">
                 <div class="cta-content">
                     <h2>Let Us Handle Your Corporation Tax</h2>
                     <p>Focus on running your business while we take care of your tax obligations.</p>
-                    <div class="cta-buttons"><a href="../contact.html" class="btn btn-primary btn-lg">Book Free
+                    <div class="cta-buttons"><a href="../contact" class="btn btn-primary btn-lg">Book Free
                             Consultation</a></div>
                     <div class="cta-phone"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2">
@@ -246,18 +341,18 @@
                 <div class="footer-column">
                     <h4>Services</h4>
                     <ul class="footer-links">
-                        <li><a href="self-assessment.html">Self-Assessment</a></li>
-                        <li><a href="corporation-tax.html">Corporation Tax</a></li>
-                        <li><a href="vat-returns.html">VAT Returns</a></li>
-                        <li><a href="../services.html">View All Services</a></li>
+                        <li><a href="self-assessment">Self-Assessment</a></li>
+                        <li><a href="corporation-tax">Corporation Tax</a></li>
+                        <li><a href="vat-returns">VAT Returns</a></li>
+                        <li><a href="../services">View All Services</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
                     <h4>Quick Links</h4>
                     <ul class="footer-links">
-                        <li><a href="../about.html">About Us</a></li>
-                        <li><a href="../contact.html">Contact</a></li>
-                        <li><a href="../privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="../about">About Us</a></li>
+                        <li><a href="../contact">Contact</a></li>
+                        <li><a href="../privacy-policy">Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">

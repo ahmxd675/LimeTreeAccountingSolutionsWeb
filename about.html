@@ -18,7 +18,7 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://limetreeaccounting.org/about.html">
+    <meta property="og:url" content="https://limetreeaccounting.org/about">
     <meta property="og:title" content="About Us | LimeTree Accounting Solutions Glasgow">
     <meta property="og:description"
         content="Learn about LimeTree Accounting Solutions - AAT accredited accountants in Glasgow. Meet our team and discover our commitment to professional, personal accounting services.">
@@ -38,7 +38,7 @@
     <link rel="stylesheet" href="css/styles.css">
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://limetreeaccounting.org/about.html">
+    <link rel="canonical" href="https://limetreeaccounting.org/about">
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-4HP6V1GTMG"></script>
@@ -47,6 +47,55 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-4HP6V1GTMG');
+    </script>
+    <meta property="og:image" content="https://limetreeaccounting.org/images/og-image.jpg">
+    <meta property="og:site_name" content="LimeTree Accounting Solutions">
+    <meta property="og:locale" content="en_GB">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- About Page + Person Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "AboutPage",
+        "url": "https://limetreeaccounting.org/about",
+        "name": "About LimeTree Accounting Solutions",
+        "inLanguage": "en-GB",
+        "about": {"@id": "https://limetreeaccounting.org/#business"},
+        "mainEntity": {
+            "@type": "Person",
+            "@id": "https://limetreeaccounting.org/about#sardar-muhammad",
+            "name": "Sardar Muhammad",
+            "jobTitle": "Founder & Lead Accountant",
+            "url": "https://limetreeaccounting.org/about",
+            "worksFor": {"@id": "https://limetreeaccounting.org/#business"},
+            "hasCredential": {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Professional Certification",
+                "name": "AAT (Association of Accounting Technicians)"
+            },
+            "knowsAbout": [
+                "Self-Assessment tax returns",
+                "Corporation Tax",
+                "VAT and Making Tax Digital",
+                "Company accounts",
+                "PAYE payroll",
+                "Landlord and property tax",
+                "Companies House compliance"
+            ],
+            "workLocation": {
+                "@type": "Place",
+                "name": "Glasgow",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Room 8, 77 Torisdale Street",
+                    "addressLocality": "Glasgow",
+                    "postalCode": "G42 8PW",
+                    "addressCountry": "GB"
+                }
+            }
+        }
+    }
     </script>
 </head>
 
@@ -72,10 +121,10 @@
             <nav class="nav-main" role="navigation" aria-label="Main navigation">
                 <ul class="nav-list">
                     <li><a href="/" class="nav-link">Home</a></li>
-                    <li><a href="about.html" class="nav-link active">About</a></li>
-                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="about" class="nav-link active">About</a></li>
+                    <li><a href="services" class="nav-link">Services</a></li>
                     <li><a href="blog/" class="nav-link">Blog</a></li>
-                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="contact" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
 
@@ -89,7 +138,7 @@
                     </svg>
                     <span>07800 874306</span>
                 </a>
-                <a href="contact.html" class="btn btn-primary btn-sm">Get a Quote</a>
+                <a href="contact" class="btn btn-primary btn-sm">Get a Quote</a>
             </div>
 
             <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
@@ -160,7 +209,7 @@
                 </div>
 
                 <div style="max-width: 600px; margin: 0 auto;">
-                    <div class="testimonial-card" style="text-align: center;">
+                    <div class="testimonial-card" id="sardar-muhammad" style="text-align: center;">
                         <div class="testimonial-avatar"
                             style="width: 100px; height: 100px; font-size: 2rem; margin: 0 auto var(--spacing-lg);">SM
                         </div>
@@ -175,7 +224,7 @@
                         <div
                             style="margin-top: var(--spacing-lg); display: flex; justify-content: center; gap: var(--spacing-md);">
                             <a href="tel:07800874306" class="btn btn-primary">Call Now</a>
-                            <a href="contact.html" class="btn btn-outline">Email</a>
+                            <a href="contact" class="btn btn-outline">Email</a>
                         </div>
                     </div>
                 </div>
@@ -378,8 +427,8 @@
                         accounting needs and show you how LimeTree can help.</p>
 
                     <div class="cta-buttons">
-                        <a href="contact.html" class="btn btn-primary btn-lg">Book Free Consultation</a>
-                        <a href="services.html" class="btn btn-white btn-lg">View Our Services</a>
+                        <a href="contact" class="btn btn-primary btn-lg">Book Free Consultation</a>
+                        <a href="services" class="btn btn-white btn-lg">View Our Services</a>
                     </div>
 
                     <div class="cta-phone">
@@ -421,22 +470,22 @@
                 <div class="footer-column">
                     <h4>Services</h4>
                     <ul class="footer-links">
-                        <li><a href="services/self-assessment.html">Self-Assessment</a></li>
-                        <li><a href="services/corporation-tax.html">Corporation Tax</a></li>
-                        <li><a href="services/vat-returns.html">VAT Returns</a></li>
-                        <li><a href="services/company-accounts.html">Company Accounts</a></li>
-                        <li><a href="services/company-formation.html">Company Formation</a></li>
-                        <li><a href="services.html">View All Services</a></li>
+                        <li><a href="services/self-assessment">Self-Assessment</a></li>
+                        <li><a href="services/corporation-tax">Corporation Tax</a></li>
+                        <li><a href="services/vat-returns">VAT Returns</a></li>
+                        <li><a href="services/company-accounts">Company Accounts</a></li>
+                        <li><a href="services/company-formation">Company Formation</a></li>
+                        <li><a href="services">View All Services</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-column">
                     <h4>Quick Links</h4>
                     <ul class="footer-links">
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="services.html">Our Services</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="about">About Us</a></li>
+                        <li><a href="services">Our Services</a></li>
+                        <li><a href="contact">Contact</a></li>
+                        <li><a href="privacy-policy">Privacy Policy</a></li>
                     </ul>
                 </div>
 
@@ -474,8 +523,7 @@
             <div class="footer-bottom">
                 <p>&copy; 2025 LimeTree Accounting Solutions. All rights reserved.</p>
                 <div class="footer-legal">
-                    <a href="privacy-policy.html">Privacy Policy</a>
-                    <a href="terms.html">Terms of Service</a>
+                    <a href="privacy-policy">Privacy Policy</a>
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@
         content="MTD-compliant VAT return services in Glasgow. We handle VAT registration, quarterly returns, and HMRC submissions. AAT accredited. Call 07800 874306.">
     <meta name="keywords"
         content="VAT returns Glasgow, MTD VAT Glasgow, VAT accountant Glasgow, Making Tax Digital, VAT registration">
-    <link rel="canonical" href="https://limetreeaccounting.org/services/vat-returns.html">
+    <link rel="canonical" href="https://limetreeaccounting.org/services/vat-returns">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,7 +17,28 @@
         rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
     <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"Service","name":"VAT Returns","provider":{"@type":"AccountingService","name":"LimeTree Accounting Solutions","telephone":"07800874306","address":{"@type":"PostalAddress","streetAddress":"Room 8, 77 Torisdale Street","addressLocality":"Glasgow","postalCode":"G42 8PW","addressCountry":"GB"}},"areaServed":{"@type":"City","name":"Glasgow"}}
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "VAT Returns",
+        "provider": {
+            "@type": "AccountingService",
+            "@id": "https://limetreeaccounting.org/#business",
+            "name": "LimeTree Accounting Solutions",
+            "telephone": "07800874306",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Room 8, 77 Torisdale Street",
+                "addressLocality": "Glasgow",
+                "postalCode": "G42 8PW",
+                "addressCountry": "GB"
+            }
+        },
+        "areaServed": {
+            "@type": "City",
+            "name": "Glasgow"
+        }
+    }
     </script>
 
     <!-- Google tag (gtag.js) -->
@@ -27,6 +48,60 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-4HP6V1GTMG');
+    </script>
+    <meta property="og:image" content="https://limetreeaccounting.org/images/og-image.jpg">
+    <meta property="og:site_name" content="LimeTree Accounting Solutions">
+    <meta property="og:locale" content="en_GB">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is the VAT registration threshold?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The VAT registration threshold is £90,000 of taxable turnover in any rolling 12-month period. You must also register if you expect to go over £90,000 in the next 30 days alone. You can register voluntarily below the threshold, which can make sense if most of your customers are VAT registered."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "When are VAT returns due?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Most businesses file quarterly. The return and payment are due 1 calendar month and 7 days after the end of each VAT period. For example, for a quarter ending 31 March, the deadline is 7 May."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Do I need Making Tax Digital software for VAT?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. All VAT-registered businesses must keep digital records and file VAT returns using MTD-compatible software. We work with the main packages and can set you up or move you across."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What happens if I file a VAT return late?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "HMRC uses a points-based system. Each late return earns a penalty point, and once you reach the threshold (4 points for quarterly filers) you get a £200 penalty, with a further £200 for each later late return. Late payments are charged separately, along with interest."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Should I use the Flat Rate Scheme?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "It depends on your sector and costs. The Flat Rate Scheme can simplify VAT for businesses with low costs, but businesses that spend little on goods may pay more under it. We compare the options using your figures before you decide."
+                }
+            }
+        ]
+    }
     </script>
 </head>
 
@@ -47,10 +122,10 @@
             <nav class="nav-main" role="navigation" aria-label="Main navigation">
                 <ul class="nav-list">
                     <li><a href="../" class="nav-link">Home</a></li>
-                    <li><a href="../about.html" class="nav-link">About</a></li>
-                    <li><a href="../services.html" class="nav-link active">Services</a></li>
+                    <li><a href="../about" class="nav-link">About</a></li>
+                    <li><a href="../services" class="nav-link active">Services</a></li>
                     <li><a href="../blog/" class="nav-link">Blog</a></li>
-                    <li><a href="../contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="../contact" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
             <div class="nav-cta">
@@ -59,7 +134,7 @@
                         <path
                             d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
                     </svg><span>07800 874306</span></a>
-                <a href="../contact.html" class="btn btn-primary btn-sm">Get a Quote</a>
+                <a href="../contact" class="btn btn-primary btn-sm">Get a Quote</a>
             </div>
             <button class="menu-toggle" aria-label="Toggle menu"
                 aria-expanded="false"><span></span><span></span><span></span></button>
@@ -72,7 +147,7 @@
                 <div class="page-hero-content">
                     <nav class="breadcrumb" aria-label="Breadcrumb">
                         <a href="../">Home</a><span>/</span><a
-                            href="../services.html">Services</a><span>/</span><span class="current">VAT Returns</span>
+                            href="../services">Services</a><span>/</span><span class="current">VAT Returns</span>
                     </nav>
                     <h1>VAT Returns in Glasgow</h1>
                     <p>Making Tax Digital compliant VAT services. From registration to quarterly returns, we ensure
@@ -80,6 +155,17 @@
                 </div>
             </div>
         </section>
+
+        <!-- Quick Answer -->
+        <section class="section-sm">
+            <div class="container">
+                <div class="testimonial-card" style="max-width: 900px; margin: 0 auto;">
+                    <h2 style="margin-bottom: var(--spacing-sm);">At a Glance</h2>
+                    <p style="margin: 0;">LimeTree Accounting Solutions handles VAT registration and Making Tax Digital VAT returns for Glasgow businesses. You must register for VAT if your taxable turnover goes over £90,000 in any rolling 12-month period. We choose the right VAT scheme, keep your records MTD compliant and submit your returns to HMRC on time.</p>
+                </div>
+            </div>
+        </section>
+
 
         <section class="law-changes section-sm">
             <div class="container">
@@ -98,7 +184,7 @@
                         <p style="margin-bottom: var(--spacing-md);">All VAT-registered businesses must now use
                             MTD-compatible software and keep digital records. Non-compliance can result in penalties. We
                             ensure your business meets all requirements.</p>
-                        <a href="../contact.html" class="btn btn-secondary">Get MTD Compliant</a>
+                        <a href="../contact" class="btn btn-secondary">Get MTD Compliant</a>
                     </div>
                 </div>
             </div>
@@ -161,7 +247,7 @@
                             <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                                     stroke="currentColor" stroke-width="2">
                                     <polyline points="20 6 9 17 4 12" />
-                                </svg><span>You receive goods from the EU worth more than £90,000</span></li>
+                                </svg><span>You take over a VAT-registered business as a going concern</span></li>
                         </ul>
                         <p>Voluntary registration may benefit some businesses – we can advise.</p>
 
@@ -194,21 +280,21 @@
                         <div class="sidebar-card">
                             <h3>Get Started Today</h3>
                             <p>Need help with VAT registration or returns? Contact us for a free consultation.</p>
-                            <a href="../contact.html" class="btn btn-primary">Get a Free Quote</a>
+                            <a href="../contact" class="btn btn-primary">Get a Free Quote</a>
                             <a href="tel:07800874306" class="btn btn-outline">Call 07800 874306</a>
                         </div>
                         <div class="sidebar-card">
                             <h3>Related Services</h3>
                             <ul class="related-services">
-                                <li><a href="corporation-tax.html"><svg xmlns="http://www.w3.org/2000/svg"
+                                <li><a href="corporation-tax"><svg xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                             <polyline points="9 18 15 12 9 6" />
                                         </svg>Corporation Tax</a></li>
-                                <li><a href="company-accounts.html"><svg xmlns="http://www.w3.org/2000/svg"
+                                <li><a href="company-accounts"><svg xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                             <polyline points="9 18 15 12 9 6" />
                                         </svg>Company Accounts</a></li>
-                                <li><a href="self-assessment.html"><svg xmlns="http://www.w3.org/2000/svg"
+                                <li><a href="self-assessment"><svg xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                             <polyline points="9 18 15 12 9 6" />
                                         </svg>Self-Assessment</a></li>
@@ -219,12 +305,30 @@
             </div>
         </section>
 
+        <!-- FAQ -->
+        <section class="section section-bg">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Common questions about VAT returns and registration</p>
+                </div>
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div class="testimonial-card" style="margin-bottom: var(--spacing-lg);"><h3 style="margin-bottom: var(--spacing-sm);">What is the VAT registration threshold?</h3><p style="margin:0; color: var(--neutral-600);">The VAT registration threshold is £90,000 of taxable turnover in any rolling 12-month period. You must also register if you expect to go over £90,000 in the next 30 days alone. You can register voluntarily below the threshold, which can make sense if most of your customers are VAT registered.</p></div>
+                    <div class="testimonial-card" style="margin-bottom: var(--spacing-lg);"><h3 style="margin-bottom: var(--spacing-sm);">When are VAT returns due?</h3><p style="margin:0; color: var(--neutral-600);">Most businesses file quarterly. The return and payment are due 1 calendar month and 7 days after the end of each VAT period. For example, for a quarter ending 31 March, the deadline is 7 May.</p></div>
+                    <div class="testimonial-card" style="margin-bottom: var(--spacing-lg);"><h3 style="margin-bottom: var(--spacing-sm);">Do I need Making Tax Digital software for VAT?</h3><p style="margin:0; color: var(--neutral-600);">Yes. All VAT-registered businesses must keep digital records and file VAT returns using MTD-compatible software. We work with the main packages and can set you up or move you across.</p></div>
+                    <div class="testimonial-card" style="margin-bottom: var(--spacing-lg);"><h3 style="margin-bottom: var(--spacing-sm);">What happens if I file a VAT return late?</h3><p style="margin:0; color: var(--neutral-600);">HMRC uses a points-based system. Each late return earns a penalty point, and once you reach the threshold (4 points for quarterly filers) you get a £200 penalty, with a further £200 for each later late return. Late payments are charged separately, along with interest.</p></div>
+                    <div class="testimonial-card" style="margin-bottom: var(--spacing-lg);"><h3 style="margin-bottom: var(--spacing-sm);">Should I use the Flat Rate Scheme?</h3><p style="margin:0; color: var(--neutral-600);">It depends on your sector and costs. The Flat Rate Scheme can simplify VAT for businesses with low costs, but businesses that spend little on goods may pay more under it. We compare the options using your figures before you decide.</p></div>
+                    <p style="text-align: center; margin-top: var(--spacing-lg);"><strong>Related guides:</strong> <a href="../blog/vat-registration-threshold-guide-uk">VAT registration threshold guide</a> &middot; <a href="../blog/making-tax-digital-guide">Making Tax Digital guide 2026</a></p>
+                </div>
+            </div>
+        </section>
+
         <section class="cta-section">
             <div class="container">
                 <div class="cta-content">
                     <h2>Stay VAT Compliant with LimeTree</h2>
                     <p>Let us handle your VAT obligations so you can focus on growing your business.</p>
-                    <div class="cta-buttons"><a href="../contact.html" class="btn btn-primary btn-lg">Book Free
+                    <div class="cta-buttons"><a href="../contact" class="btn btn-primary btn-lg">Book Free
                             Consultation</a></div>
                     <div class="cta-phone"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2">
@@ -255,18 +359,18 @@
                 <div class="footer-column">
                     <h4>Services</h4>
                     <ul class="footer-links">
-                        <li><a href="self-assessment.html">Self-Assessment</a></li>
-                        <li><a href="corporation-tax.html">Corporation Tax</a></li>
-                        <li><a href="vat-returns.html">VAT Returns</a></li>
-                        <li><a href="../services.html">View All Services</a></li>
+                        <li><a href="self-assessment">Self-Assessment</a></li>
+                        <li><a href="corporation-tax">Corporation Tax</a></li>
+                        <li><a href="vat-returns">VAT Returns</a></li>
+                        <li><a href="../services">View All Services</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
                     <h4>Quick Links</h4>
                     <ul class="footer-links">
-                        <li><a href="../about.html">About Us</a></li>
-                        <li><a href="../contact.html">Contact</a></li>
-                        <li><a href="../privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="../about">About Us</a></li>
+                        <li><a href="../contact">Contact</a></li>
+                        <li><a href="../privacy-policy">Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">

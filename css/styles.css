@@ -1624,3 +1624,33 @@ p {
         text-decoration: underline;
     }
 }
+/* Long-form article content (guides and local landing pages) */
+.article-body ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+    margin-bottom: var(--spacing-md);
+}
+
+.article-body ol {
+    list-style: decimal;
+    padding-left: 1.5rem;
+    margin-bottom: var(--spacing-md);
+}
+
+.article-body li {
+    margin-bottom: 0.4rem;
+}
+
+.article-body h2 {
+    margin-top: var(--spacing-xl);
+}
+
+.article-body table {
+    display: block;
+    overflow-x: auto;
+}
+
+.article-body th {
+    background: var(--primary-green);
+    color: #fff;
+}
