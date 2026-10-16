@@ -9,6 +9,7 @@
     --primary-lime: #84CC16;
     --primary-lime-dark: #65A30D;
     --secondary-green: #166534;
+    --primary-green: #166534; /* alias used by page templates */
     --secondary-green-dark: #14532D;
     --accent-gold: #F59E0B;
     --accent-gold-dark: #D97706;
